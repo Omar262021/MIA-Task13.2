@@ -17,3 +17,11 @@ I will explain the steps I followed to complete the first requirement:
 6. I created a function that detects the shape based on the number of contour points.
 
 7. Finally, I added text to label the shapes and displayed the new image.
+
+Color Detection
+
+1-i took the contour of every shape and extracted the hsv values in it
+
+2-i made a histogram of all the hues inside the contour
+
+3-i took the most dominent hue and compared it to definte values for Red,Blue.Green and Yellow
